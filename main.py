@@ -4,7 +4,7 @@ import nltk
 import spacy
 
 app = Flask(__name__)
-@app.route('/index')
+@app.route('/')
 def index():
     return ("--Hello word--")
 
